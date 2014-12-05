@@ -1,0 +1,56 @@
+<head> 
+  <link rel="stylesheet" href="profilepage.css">
+  <link href="http://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet" type="text/css">
+</head>
+
+<header>
+
+  <br>
+
+  <a id="title" href="#"><img src="../main/icons_title/mtgCentralTextRed.png" height="55" width="140" ></a>
+
+  <a class="mana" href=""><img src="../main/icons_title/mtg_white_mana_dk.png" height="50" width="50"  onmouseover="this.src='../main/icons_title/mtg_white_mana_Lt.png'" onmouseout="this.src='../main/icons_title/mtg_white_mana_dk.png'" /></a>
+
+  <a class="mana" href=""><img src="../main/icons_title/mtg_blue_mana_dk.png" height="50" width="50"  onmouseover="this.src='../main/icons_title/mtg_blue_mana_Lt.png'" onmouseout="this.src='../main/icons_title/mtg_blue_mana_dk.png'" /></a>
+
+  <a class="mana" href=""><img src="../main/icons_title/mtg_black_mana_dk.png" height="50" width="50"  onmouseover="this.src='../main/icons_title/mtg_black_mana_Lt.png'" onmouseout="this.src='../main/icons_title/mtg_black_mana_dk.png'" /></a>
+
+  <a class="mana" href=""><img src="../main/icons_title/mtg_red_mana_dk.png"  height="50" width="50" onmouseover="this.src='../main/icons_title/mtg_red_mana_Lt.png'" onmouseout="this.src='../main/icons_title/mtg_red_mana_dk.png'" /></a>
+
+  <a class="mana" href="/index.html#/list"><img src="../main/icons_title/mtg_green_mana_dk.png" height="50" width="50"  onmouseover="this.src='../main/icons_title/mtg_green_mana_Lt.png'" onmouseout="this.src='../main/icons_title/mtg_green_mana_dk.png'" /></a>
+
+</header>
+
+
+    <div ng-hide="app.user">
+    </div>
+
+    <div ng-show="app.user">
+      <h1>Welcome, {{app.user.facebook.displayName}}  </h1>
+      <p>{{app.user.facebook.displayPhoto}}</p>
+
+      <div>
+	<h1>Trade Lists</h1>
+	<p>{{}}</p>
+
+</div>
+</div>
+
+      <button class="btn btn-danger" ng-click="app.logout()"><h1>Log Out</h1></button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

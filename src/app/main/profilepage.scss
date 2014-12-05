@@ -1,0 +1,98 @@
+$main-font: 'Cinzel', serif;
+
+body {
+	margin: 0;
+	font-family: $main-font;
+/*	background-color: black;*/
+background-image: url("images/lotus.jpg");
+
+	button {
+	font-family: $main-font;
+	font-family: "Cinzel", serif;
+	text-align: center;
+	background-color: #21592c;
+	margin-left: 182px;
+	margin-top: 22px;
+	border-radius: 5px;
+
+
+
+			h1 {
+			font-size: 16px;
+		    line-height: 2px;
+			}
+	}
+
+		header {
+		height: 93.778px;
+		border-top: solid 2px #f70000;
+		border-bottom: solid 1px #f70000;
+		background-color: black;
+
+			a {
+				padding-bottom: 3px;
+			}
+		}
+
+		div:nth-child(3) {
+
+		h1 {
+		color: white;
+		padding-left: 20px;
+		}
+
+		p {
+		color: white;
+		padding-left: 20px;
+		}
+
+					div {
+						width:400px;
+						height:300px;
+						-webkit-border-radius: 
+						30px;-moz-border-radius: 30px;
+						border-radius: 30px;
+						background-color:#474040;
+						-webkit-box-shadow: #B31212 1px 1px 1px;
+						-moz-box-shadow: #B31212 1px 1px 1px; 
+						box-shadow: #B31212 1px 1px 1px; 
+						margin-left:30px;
+		
+							h1 {
+							color: white;
+							text-align: center;
+							font-family: $main-font;
+							}
+
+							p {
+						 	text-align: center;
+							}
+					}
+		}
+}
+
+#title {
+  	   
+  	   img {
+	   padding-left: 15px;
+  	   }
+}
+body > header > a:nth-child(3) > img {
+	padding-bottom: 3px;
+}
+
+body > header > a:nth-child(4) > img {
+padding-bottom: 3px;
+}
+
+body > header > a:nth-child(5) > img {
+	padding-bottom: 3px;
+}
+body > header > a:nth-child(6) > img {
+	padding-bottom: 3px;
+}
+
+body > header > a:nth-child(7) > img {
+	padding-bottom: 3px;
+}
+
