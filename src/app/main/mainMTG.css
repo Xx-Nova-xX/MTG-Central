@@ -107,7 +107,7 @@ body > div > main > div.cd-fixed-bg.cd-bg-4 > h2 {
   font-size: 70px; 
 }
 
-#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(1) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(6) {
   height: 40px; 
   width: 200px;
 }
@@ -128,6 +128,62 @@ margin-top: 0px;
 
 #mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div {
   max-width: 2100px;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(2) {
+margin-right: 50px;
+margin-left: 37px;
+}
+
+ #mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(3) {
+  margin-left: 90px;
+ }
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(4) {
+  margin-left: 80px;
+margin-right: 0px;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(5) {
+margin-left: 114px;
+margin-right: 0px;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(1) {
+  margin-right: 100px;
+ }
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(7) {
+margin-left: 106px;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(8) {
+  margin-left: 102px;
+ }
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(9) {
+  margin-left: 90px;
+ }
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(10) {
+margin-left: 104px;;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(11) {
+margin-left: 115px;
+margin-right: 34px;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(12) {
+margin-left: 123px;
+margin-right: 134px;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(13) {
+margin-right: 124px;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(15) {
+margin-left: 85px;
 }
 
 /*Modules for break points*/
