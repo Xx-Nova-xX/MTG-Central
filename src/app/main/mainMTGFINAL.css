@@ -1,0 +1,231 @@
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 100%;
+  font-family: "Cinzel", serif;
+  color: #000000;
+  backgound-color: #000000; }
+  body h2 {
+    color: white; }
+
+body, html {
+  height: 100%; }
+
+#mainContainer {
+  height: 100%; }
+
+#title > img {
+  margin: 0 3% 0 8%; }
+
+#listings-img {
+  position: absolute;
+  width: 65%;
+  top: 55%;
+  left: 17%; }
+
+#search-img {
+  height: 50%;
+  position: absolute;
+  left: 35%; }
+
+#profile-img {
+  position: absolute;
+  width: 45%;
+  left: 3%; }
+
+.cd-container > img {
+  height: 100px;
+  width: auto;
+  margin: 5%; }
+
+.cd-main-content > div > section > p {
+  width: 59%;
+  position: absolute;
+  left: 19%;
+  top: 40%;
+  color: #fff;
+  font-size: 22px;
+  text-align: center; }
+
+.cd-main-content > div > section > button {
+  position: absolute;
+  top: 55%;
+  left: 43%; }
+
+header > div {
+  display: inline;
+  margin-left: 7%; }
+
+a {
+  color: #000000;
+  text-decoration: none; }
+
+h2 {
+  font-family: 'Cinzel', serif; }
+
+body {
+  font-size: 10%;
+  font-family: 'Cinzel', serif; }
+
+body header {
+  padding-top: 15px;
+  /*padding-bottom: 20px;*/ }
+
+/*body header a img {
+  margin-top: -18px; }*/
+/*body > header > a:nth-child(5) {
+  padding-left: 65px;
+  padding-right: 60px;
+  padding-bottom: 15px; }
+
+body > header > a:nth-child(3) {
+  padding-left: 75px;
+  padding-right: 70px;
+  padding-bottom: 15px; }*/
+body > main > div.cd-scrolling-bg.cd-color-2 > div > p {
+  color: white;
+  padding-top: 50px;
+  font-size: 28px; }
+
+body > main > div.cd-fixed-bg.cd-bg-2 > h2 {
+  font-size: 70px; }
+
+body > main > div.cd-fixed-bg.cd-bg-3 > h2 {
+  font-size: 70px; }
+
+body > main > div.cd-fixed-bg.cd-bg-4 > h2 {
+  font-size: 70px; }
+
+/*Modules for break points*/
+.cd-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+  height: 850px; }
+  .cd-container p {
+    font-size: 50px; }
+  .cd-container::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+/* --------------------------------- */
+.cd-main-content {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  font-size: 40px; }
+
+.cd-fixed-bg h1, .cd-fixed-bg h2, .cd-container > h2 {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white; }
+
+/*.cd-fixed-bg {
+	position: relative;
+	min-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: index($bg-elements, fixed-bg);
+
+	h1, h2 {
+		position: absolute;
+		@include center;
+		width: 90%;
+		max-width: $L;
+
+		text-align: center;
+		@include font-size(30px);
+		text-shadow: 0 1px 3px rgba(#000, .3);
+		color: white;
+	}*/
+.cd-bg-1 {
+  background-image: url("images/mtg-background-1.jpg"); }
+
+.cd-bg-2 {
+  background-image: url("images/mtg-background-2.jpg"); }
+
+.cd-bg-3 {
+  background-image: url("images/mtg-background-3.jpg"); }
+
+.cd-bg-4 {
+  background-image: url("images/mtg-background-4.jpg"); }
+
+@media only screen and (min-width: 768px) {
+  h1, h2 {
+    font-size: 36px; } }
+@media only screen and (min-width: 1170px) {
+  background-attachment: fixed;
+  h1, h2 {
+    font-size: 48px;
+    font-weight: 300; } }
+.cd-fixed-bg {
+  background-attachment: fixed; }
+
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  font-size: 38px;
+  font-weight: 300; }
+
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 105%;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  /*	&.cd-color-2 {
+  		background-color: $color-2;
+  		color: $color-1;
+  	}
+  
+  	&.cd-color-3 {
+  		background-color: $color-3;
+  		color: $color-1;
+  	}
+  */ }
+  .cd-scrolling-bg.cd-color-1 {
+    background-color: #000000;
+    color: #666666; }
+  .cd-scrolling-bg p {
+    font-size: 40px; }
+  .cd-scrolling-bg .cd-fixed-bg .cd-scrolling-bg.cd-color-1 {
+    background-color: #000000;
+    color: #666666; }
+  .cd-scrolling-bg .cd-fixed-bg .cd-scrolling-bg p {
+    font-size: 40px; }
+  .cd-scrolling-bg .cd-fixed-bg .cd-scrolling-bg.cd-color-2 {
+    background-color: #000000;
+    color: #000000; }
+  .cd-scrolling-bg .cd-fixed-bg .cd-scrolling-bg.cd-color-3 {
+    background-color: #000000;
+    color: #000000; }
+  @media only screen and (min-width: 768px) {
+    .cd-scrolling-bg {
+      padding: 8em 0;
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 2;
+      font-weight: 300; } }
+
+/*# sourceMappingURL=mainMTGFINAL.css.map */
