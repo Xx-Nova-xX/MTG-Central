@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Cinzel", serif;
-  background-color: black;
+  background-color: #252528;
   background-image: url("images/lotus.jpg"); }
   body button {
     font-family: "Cinzel", serif;
@@ -16,51 +16,65 @@ body {
       line-height: 2px; }
   body header {
     height: 93.778px;
-    border-top: solid 2px #f70000;
-    border-bottom: solid 1px #f70000;
+    /*		border-top: solid 2px #f70000;
+    		border-bottom: solid 1px #f70000;*/
     background-color: black; }
     body header a {
       padding-bottom: 3px; }
+  body div:nth-child(2) p img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    border: 5px solid white; }
   body div:nth-child(3) h1 {
     color: white;
-    padding-left: 20px; }
+    text-align: left;
+    padding-top: 15px;
+    font-family: "Cinzel", serif;
+    margin-left: 30px; }
+  body div:nth-child(3) h2 {
+    color: white;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 50px; }
   body div:nth-child(3) p {
     color: white;
     padding-left: 20px; }
   body div:nth-child(3) div {
-    width: 400px;
-    height: 300px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    background-color: #474040;
-    -webkit-box-shadow: #B31212 1px 1px 1px;
-    -moz-box-shadow: #B31212 1px 1px 1px;
-    box-shadow: #B31212 1px 1px 1px;
-    margin-left: 30px; }
-    body div:nth-child(3) div h1 {
-      color: white;
-      text-align: center;
-      font-family: "Cinzel", serif; }
-    body div:nth-child(3) div p {
-      text-align: center; }
+    /*						width:50%;
+    						height:300px;
+    						-webkit-border-radius: 
+    						30px;-moz-border-radius: 30px;
+    						border-radius: 30px;
+    						background-color:#474040;
+    						-webkit-box-shadow: #B31212 1px 1px 1px;
+    						-moz-box-shadow: #B31212 1px 1px 1px; 
+    						box-shadow: #B31212 1px 1px 1px; 
+    						margin-left:25%;*/ }
 
-#title img {
-  padding-left: 15px; }
-
+/*#title {
+  	   
+  	   img {
+	   padding-left: 15px;
+  	   }
+}
 body > header > a:nth-child(3) > img {
-  padding-bottom: 3px; }
+	padding-bottom: 3px;
+}
 
 body > header > a:nth-child(4) > img {
-  padding-bottom: 3px; }
+padding-bottom: 3px;
+}
 
 body > header > a:nth-child(5) > img {
-  padding-bottom: 3px; }
-
+	padding-bottom: 3px;
+}
 body > header > a:nth-child(6) > img {
-  padding-bottom: 3px; }
+	padding-bottom: 3px;
+}
 
 body > header > a:nth-child(7) > img {
-  padding-bottom: 3px; }
+	padding-bottom: 3px;
+}*/
 
 /*# sourceMappingURL=profilepage.css.map */

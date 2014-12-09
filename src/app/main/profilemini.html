@@ -1,0 +1,23 @@
+<!doctype HTML>
+<html> 
+ 
+<body>
+ <div ng-hide="app.user">
+    </div>
+
+    <div ng-show="app.user">
+      <h1>{{app.user.facebook.displayName}}'s Profile</h1>
+      <p><img src="{{app.user.avatarUrl}}"</p>
+
+      <div>
+	<h1>Trade Lists</h1>
+
+</div>
+</div>
+
+      <button class="btn btn-danger" ng-click="app.logout()"><h1>Log Out</h1></button>
+    </div>
+  </div>
+
+</body>
+</html>
