@@ -1,9 +1,9 @@
 body {
   margin: 0;
   font-family: "Cinzel", serif;
-  background-color: #252528;
-  background-image: url("images/lotus.jpg"); }
+  background-color: #252528; }
   body button {
+    float: right;
     font-family: "Cinzel", serif;
     font-family: "Cinzel", serif;
     text-align: center;
@@ -11,9 +11,11 @@ body {
     margin-left: 182px;
     margin-top: 22px;
     border-radius: 5px; }
-    body button h1 {
+    body button h3 {
       font-size: 16px;
-      line-height: 2px; }
+      line-height: 8px;
+      margin-top: 5px;
+      margin-bottom: 5px; }
   body header {
     height: 93.778px;
     /*		border-top: solid 2px #f70000;
