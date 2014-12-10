@@ -70,9 +70,17 @@ text-align: center;
   left: 43%;
 }
 
+#mainContainer > header > div:nth-child(9) > button {
+  margin-left: 175px;
+}
+
 #mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > h1 > p > img { /*MTG Logo Image*/
   width: 500px;
   height: 150px;
+}
+
+#mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > p:nth-child(8) {
+  position: relative;
 }
 
 header > div {
@@ -863,6 +871,11 @@ width: 207px;
 
                       #mainContainer > header > a:nth-child(7) > img {
                       display: none;
+                      }
+
+                      #mainContainer > header > div:nth-child(9) > button {
+
+                       margin-left: 0;
                       }
 
                       }
