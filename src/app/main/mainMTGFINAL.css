@@ -7,6 +7,10 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.techImg {
+  width: 10pt;
+}
+
 body {
   font-size: 100%;
   font-family: "Cinzel", serif;
@@ -103,6 +107,30 @@ body > main > div.cd-fixed-bg.cd-bg-3 > h2 {
 body > main > div.cd-fixed-bg.cd-bg-4 > h2 {
   font-size: 70px; }
 
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > div:nth-child(1) > img:nth-child(1) {
+margin-top: 10%;
+margin-left: 5%;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > div:nth-child(1) > img:nth-child(2) {
+margin-top: 10%;
+margin-left: 5%;
+}
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > div:nth-child(2) > img:nth-child(2) {
+margin-left: 6%;
+margin-top: 4%;
+}
+
+.row2 > img:nth-child(1) {
+margin-left: 12%;
+margin-top: 5%;
+width:200px; 
+height:;
+}
+
+
 /*Modules for break points*/
 .cd-container {
   width: 90%;
@@ -115,6 +143,23 @@ body > main > div.cd-fixed-bg.cd-bg-4 > h2 {
     content: '';
     display: table;
     clear: both; }
+
+        #mainContainer > header > div:nth-child(8) > button {
+        margin-left: 98px;
+        }
+    
+    @media (min-width: 1170px) and (max-width: 1429px) { 
+    
+        #mainContainer > header > div:nth-child(8) > button {
+        margin-left: -81px;
+        }
+    
+
+
+    } 
+
+
+
 
 /* --------------------------------- */
 .cd-main-content {
@@ -172,14 +217,14 @@ body > main > div.cd-fixed-bg.cd-bg-4 > h2 {
 .cd-bg-4 {
   background-image: url("images/mtg-background-4.jpg"); }
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   h1, h2 {
     font-size: 36px; } }
 @media only screen and (min-width: 1170px) {
   background-attachment: fixed;
   h1, h2 {
     font-size: 48px;
-    font-weight: 300; } }
+    font-weight: 300; } }*/
 .cd-fixed-bg {
   background-attachment: fixed; }
 
@@ -220,12 +265,12 @@ body > main > div.cd-fixed-bg.cd-bg-4 > h2 {
   .cd-scrolling-bg .cd-fixed-bg .cd-scrolling-bg.cd-color-3 {
     background-color: #000000;
     color: #000000; }
-  @media only screen and (min-width: 768px) {
+  /*@media only screen and (min-width: 768px) {
     .cd-scrolling-bg {
       padding: 8em 0;
       font-size: 20px;
       font-size: 1.25rem;
       line-height: 2;
-      font-weight: 300; } }
+      font-weight: 300; } }*/
 
 /*# sourceMappingURL=mainMTGFINAL.css.map */
