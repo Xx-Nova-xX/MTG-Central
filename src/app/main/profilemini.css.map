@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACL,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,CAAC",
-"sources": ["profilemini.scss"],
-"names": [],
-"file": "profilemini.css"
-}
