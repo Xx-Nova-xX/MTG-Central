@@ -68,12 +68,12 @@ text-align: center;
   margin-left: 175px;
 }
 
-.cd-fixed-bg.cd-bg-1 > section > h1 > p > img { /*MTG Logo Image*/
+#mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > h1 > p > img  { /*MTG Logo Image*/
   width: 500px;
   height: 150px;
 }
 
-.cd-fixed-bg.cd-bg-1 > section > p:nth-child(8) {
+#mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > p:nth-child(8) {
   position: relative;
 }
 
@@ -98,110 +98,107 @@ body header {
   padding-top: 15px; 
 }
 
-.cd-scrolling-bg.cd-color-2 > div > p {
+body > div > main > div.cd-scrolling-bg.cd-color-2 > div > p {
   color: white;
   padding-top: 50px;
   font-size: 28px; 
 }
 
-.cd-fixed-bg.cd-bg-2 > h2 {
+body > div > main > div.cd-fixed-bg.cd-bg-2 > h2 {
   font-size: 70px; 
 }
 
-.cd-fixed-bg.cd-bg-3 > h2 {
+body > div > main > div.cd-fixed-bg.cd-bg-3 > h2 {
   font-size: 70px; 
 }
 
-.cd-fixed-bg.cd-bg-4 > h2 {
+body > div > main > div.cd-fixed-bg.cd-bg-4 > h2 {
   font-size: 70px; 
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(6) {
-  height: 40px; 
-  width: 200px;
-}
-
-
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(6) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(6) {
+height: 40px; 
+width: 200px;
 margin-right: 0px;
 margin-top: 0px;
 margin-bottom: 0px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(2){
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(2) {
 margin-left: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 margin-top: 0px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div {
+
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div {
   max-width: 2100px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(2) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(2) {
 margin-right: 50px;
 margin-left: 37px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(3) {
+ #mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(3) {
   margin-left: 90px;
  }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(4) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(4) {
   margin-left: 80px;
 margin-right: 0px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(5) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(5) {
 margin-left: 114px;
 margin-right: 0px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(1) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(1) {
   margin-right: 100px;
  }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(7) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(7) {
 margin-left: 106px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(8) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(8) {
   margin-left: 102px;
  }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(9) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(9) {
   margin-left: 90px;
  }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(10) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(10) {
 margin-left: 104px;;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(11) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(11) {
 margin-left: 115px;
 margin-right: 34px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(12) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(12) {
 margin-left: 123px;
 margin-right: 134px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(13) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(13) {
 margin-right: 124px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div > img:nth-child(15) {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div > img:nth-child(15) {
 margin-left: 85px;
 }
 
-.cd-scrolling-bg.cd-color-1 {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 {
 padding-top: 0px;
 padding-bottom: 0px;
 }
 
-.cd-scrolling-bg.cd-color-1 > div {
+#mainContainer > main > div.cd-scrolling-bg.cd-color-1 > div {
 max-height: 766px;
 }
 
@@ -241,25 +238,22 @@ font-size: 18px;
 line-height: 1.33;
 border-radius: 6px;
 margin-left: 98px;
-}
-
-#mainContainer > header > div:nth-child(5) > button {
 color: #fff;
 background-color: #173E60;
 border-color: #374857;
-} 
+}
 
- #title > img {
+#title > img {
 margin-left: 20px;
 margin-right: 127px;
 }
 
-.cd-fixed-bg.cd-bg-1 > section > p {
+#mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > p {
 text-shadow:0px 0px 10px #fff;
 color:white;
 }
 
-.cd-fixed-bg.cd-bg-1 > section > p:nth-child(4) {
+#mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > p:nth-child(4) {
 top: 197px;
 }
 
@@ -290,7 +284,6 @@ text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
 height: 120px; 
 width: 500px;
 top: 0px;
-
 }
 
 
@@ -428,6 +421,7 @@ top: 0%;
 top: 0%;
 margin-top: 375px;
 }
+
 
 #mainContainer > main > div.cd-scrolling-bg.cd-color-2 > div > img {
 width: 90%px;
