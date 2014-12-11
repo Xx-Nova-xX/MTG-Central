@@ -104,21 +104,21 @@ body header {
   padding-top: 15px; 
 }
 
-body > div > main > div.cd-scrolling-bg.cd-color-2 > div > p {
+.cd-scrolling-bg.cd-color-2 > div > p {
   color: white;
   padding-top: 50px;
   font-size: 28px; 
 }
 
-body > div > main > div.cd-fixed-bg.cd-bg-2 > h2 {
+.cd-fixed-bg.cd-bg-2 > h2 {
   font-size: 70px; 
 }
 
-body > div > main > div.cd-fixed-bg.cd-bg-3 > h2 {
+.cd-fixed-bg.cd-bg-3 > h2 {
   font-size: 70px; 
 }
 
-body > div > main > div.cd-fixed-bg.cd-bg-4 > h2 {
+.cd-fixed-bg.cd-bg-4 > h2 {
   font-size: 70px; 
 }
 
@@ -259,12 +259,7 @@ margin-left: 20px;
 margin-right: 127px;
 }
 
-
 #mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > p {
-/*  text-shadow: 2px 1px #000000;
-  filter: blur(2px); 
-  -webkit-filter: blur(2px);
-  filter: url('blur.svg#blur');*/
 text-shadow:0px 0px 10px #fff;
 color:white;
 }
@@ -302,20 +297,10 @@ width: 500px;
 top: 0px;
 
 }
-/*
-#mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > h3 {
-width: 59%;
-position: absolute;
-left: 19%;
-top: 40%;
-color: #fff;
-font-size: 22px;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 10px;
-}*/
+
 
 /*START OF ICONS AREA*/
+
 #cd-container {
 height: 10%;
 }
@@ -535,18 +520,21 @@ margin-bottom: 0px;
       } 
   }
   
-  @media only screen and (min-width: 1170px) {
+
+@media only screen and (min-width: 1170px) {
+            
+            .cd-fixed-bg {
+                background-attachment: fixed; 
+            }
+            
+            .cd-fixed-bg h1, .cd-fixed-bg h2 {
+                  font-size: 38px;
+                  font-weight: 300; 
+            } 
+          }
   
-  .cd-fixed-bg {
-      background-attachment: fixed; 
-  }
-  
-  .cd-fixed-bg h1, .cd-fixed-bg h2 {
-        font-size: 38px;
-        font-weight: 300; 
-  } 
-}
-  
+
+
 .cd-scrolling-bg {
     position: relative;
     max-height: 105%;
@@ -589,40 +577,36 @@ margin-bottom: 0px;
 
 @media (min-width: 1431px) and (max-width: 1180px){
   
-  #mainContainer > header > div:nth-child(8) > button {
-  margin-left: -46px;
-}
+    #mainContainer > header > div:nth-child(8) > button {
+    margin-left: -46px;
+    }
 } 
 
-/*@media (min-width: 624px) and (max-width: 1030px) {
 
-}
-*/
-
-}
 
 
 @media (min-width: 983px) and (max-width: 1176px) {
- #mainContainer > header > div:nth-child(8) > button {
- margin-left: -36px;
-}
-}
 
-
-@media (min-width: 874px) and (max-width: 1450px){
-
-  #title > img {
-height: 91px;
-width: 207px;
+     #mainContainer > header > div:nth-child(8) > button {
+     margin-left: -36px;
+    }
 }
 
-      .cd-fixed-bg .cd-scrolling-bg {
-              padding: 8em 0;
-              font-size: 20px;
-              font-size: 1.25rem;
-              line-height: 2;
-              font-weight: 300; 
-            }
+
+@media (min-width: 874px) and (max-width: 1477px){
+
+        #title > img {
+        height: 91px;
+        width: 207px;
+        }
+
+        .cd-fixed-bg .cd-scrolling-bg {
+        padding: 8em 0;
+        font-size: 20px;
+        font-size: 1.25rem;
+        line-height: 2;
+        font-weight: 300; 
+        }
 
       #mainContainer > main > div.cd-fixed-bg.cd-bg-1 > section > h1  {
       font-size: 60px;
@@ -642,29 +626,29 @@ width: 207px;
       top: 0px;
       }
 
-      #mainContainer > header > a:nth-child(3) > img {
+      .mainIcons > a:nth-child(1) > img {
       margin-left: -113px;
-      height: 100px;
+      height: 10%;
       width: 100px;
       }
 
-      #mainContainer > header > a:nth-child(4) > img {
-      height: 100px;
+      .mainIcons > a:nth-child(2) > img {
+      height: 10%;
       width: 100px;
       }
 
-      #mainContainer > header > a:nth-child(5) > img {
-      height: 100px;
+      .mainIcons > a:nth-child(3) > img {
+      height: 10%;
       width: 100px;
       }
       
-      #mainContainer > header > a:nth-child(6) > img {
-      height: 100px;
+      .mainIcons > a:nth-child(4) > img {
+      height: 10%;
       width: 100px;
       }
         
-      #mainContainer > header > a:nth-child(7) > img {
-      height: 100px;
+      .mainIcons > a:nth-child(5) > img {
+      height: 10%;
       width: 100px;
       }
 
@@ -686,30 +670,31 @@ width: 207px;
 }
 
 
-@media (min-width: 0px) and (max-width: 873px){
+@media (min-width: 0px) and (max-width: 1077px){
       
-      #mainContainer > header > a:nth-child(3) > img {
+      .mainIcons > a:nth-child(1) > img  {
       margin-left: -113px;
       height: 50px;
       width: 50px;
+      float: center;
       }
 
-      #mainContainer > header > a:nth-child(4) > img {
+      .mainIcons > a:nth-child(2) > img  {
       height: 50px;
       width: 50px;
       }
 
-      #mainContainer > header > a:nth-child(5) > img {
+      .mainIcons > a:nth-child(3) > img {
       height: 50px;
       width: 50px;
       }
       
-      #mainContainer > header > a:nth-child(6) > img {
+      .mainIcons > a:nth-child(4) > img {
       height: 50px;
       width: 50px;
       }
         
-      #mainContainer > header > a:nth-child(7) > img {
+      .mainIcons > a:nth-child(5) > img {
       height: 50px;
       width: 50px;
       }
@@ -737,17 +722,18 @@ width: 207px;
       top: 0px;
       }
 
-      #mainContainer > main > div.cd-fixed-bg.cd-bg-2 > h2 {
-              font-size: 20px;
+            #mainContainer > main > div.cd-fixed-bg.cd-bg-2 > h2 {
+            font-size: 20px;
             }
 
             #mainContainer > main > div.cd-scrolling-bg.cd-color-3 > div > h2 {
-               font-size: 20px; 
+            font-size: 20px; 
             }
 
             #mainContainer > main > div.cd-fixed-bg.cd-bg-3 > h2 {
-               font-size: 20px; 
+            font-size: 20px; 
             }
+
             body > div > main > div.cd-fixed-bg.cd-bg-4 > h2 {
             font-size: 20px;
             }
@@ -843,7 +829,6 @@ width: 207px;
                       margin-top: 4%;
                       margin-left: 8%;
 
-
                       }
 
                       .row3 > img:nth-child(4) {
@@ -853,32 +838,36 @@ width: 207px;
                       margin-top: 2.5%;
                       }
 
-                      #mainContainer > header > a:nth-child(3) > img {
+                      .mainIcons > a:nth-child(1) > img {
                       display: none;
                       }
 
-                      #mainContainer > header > a:nth-child(4) > img {
+                      .mainIcons > a:nth-child(2) > img {
                       display: none;
                       }
 
-                      #mainContainer > header > a:nth-child(5) > img {
+                      .mainIcons > a:nth-child(3) > img {
                       display: none;
                       }
 
-                      #mainContainer > header > a:nth-child(6) > img {
+                      .mainIcons > a:nth-child(4) > img {
                       display: none;
                       }
 
-                      #mainContainer > header > a:nth-child(7) > img {
+                      .mainIcons > a:nth-child(5) > img{
                       display: none;
                       }
 
-                      #mainContainer > header > div:nth-child(9) > button {
-
+                      #mainContainer > header > div:nth-child(5) > button{
                        margin-left: 0;
+                       float: right;
                       }
 
+                      .mainIcons {
+                        float: center;
                       }
+
+            }
 
 
 
